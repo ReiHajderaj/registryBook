@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #f2f2f2; 
+}
+
+.full {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    width: fit-content;
+    background-color: white;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    border: 1px solid black;
+}
+
+.fill{
+    position: fixed;
+    border-radius: 10px;
+    box-shadow: 3px 5px gray;
+    border: 1px solid gray;
+    width: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+form div{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    width: 150px;
+}
+
+.header-part{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: circle;
+    align-items: center;
+}
+
+.expands{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.remove{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}
+
+.show-form{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 3px gray;
+
+}
+
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+select{
+    padding:0 5px;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+.danger{
+    color: red;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.false-read:after{
+    content: 'Read Status: False';
+}
+
+.true-read:after{
+    content: 'Read Status: True';
+}
+
+.reading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.change{
+    background-color: white;
+    border-radius: 10px;
+}

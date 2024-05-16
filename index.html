@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="full">
+
+        <div class="header">
+            <h1>Your Book Library is Here:</h1>
+            <div class="container">
+                <h2>Here is your list:</h2>
+                <ul class="books-list">
+
+                </ul>
+            </div>
+
+
+
+        </div>
+        <button class="show-form">NEW BOOK</button>
+
+
+        <dialog close class="fill">
+            <form action="" class="no-show">
+                <div>
+                    <label for="auther">
+                        Auther:
+
+                    </label>
+                    <input minlength="1" type="text" id="auther">
+                </div>
+
+                <div>
+                    <label for="title">
+                        Title:
+                    </label>
+                    <input type="text" minlength="1" id="title">
+                </div>
+
+                <div>
+                    <label for="page-no">
+                        Pages:
+                    </label>
+                    <input type="number" id="page-no" min='0'>
+                </div>
+
+                <div>
+                    <label for="read">
+                        Have Read:
+                    </label>
+                    <select id="read">
+                        <option value="true">Yes</option>
+                        <option value="false">No</option>
+                    </select>
+                </div>
+
+
+                <button type="button">Submit</button>
+                <p class="danger"></p>
+            </form>
+        </dialog>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
